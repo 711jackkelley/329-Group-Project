@@ -62,8 +62,8 @@
         <li><a href="main.html">Home</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="booking.html">Booking</a></li>
-        <li><a href="classes.html">Classes</a></li>
-        <li class="active"><a href="#">Donate</a></li>
+        <li class="active"><a href="classes.html">Classes</a></li>
+        <li><a href="donate.html">Donate</a></li>
         <li><a href="volunteer.html">Volunteer</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -76,21 +76,10 @@
 <div class="container-fluid text-center">    
   <div class="row content">
     <div class="col-sm-8 text-left"> 
-      <h1>Donate</h1>
+      <h1>Classes</h1>
       <hr>
       <div class="col-md-7 col-lg-8">
-        <h4 class="mb-3">Donation</h4>
-        
-        <div class="row g-3">
-          <div class="col-sm-6">
-            <label for="lastName" class="form-label">Donation Amount</label>
-            <input type="text" class="form-control" id="donationAmount" placeholder="" value="" required>
-          </div>
-        </div>
-  
-        <hr class="my-4">
-  
-        <h4 class="mb-3">Billing address</h4>
+        <h4 class="mb-3">Register</h4>
         <div class="needs-validation">
           <div class="row g-3">
             <div class="col-sm-6">
@@ -144,50 +133,7 @@
   
           <hr class="my-4">
   
-          <h4 class="mb-3">Payment</h4>
-  
-          <div class="my-3">
-            <div class="form-check">
-              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
-              <label class="form-check-label" for="credit">Credit card</label>
-            </div>
-            <div class="form-check">
-              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
-              <label class="form-check-label" for="debit">Debit card</label>
-            </div>
-            <div class="form-check">
-              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-              <label class="form-check-label" for="paypal">PayPal</label>
-            </div>
-          </div>
-  
-          <div class="row gy-3">
-  
-            <div class="col-md-6">
-              <label for="cc-number" class="form-label">Credit card number</label>
-              <input type="text" class="form-control" id="cc-number" placeholder="" required>
-            </div>
-  
-            <div class="col-md-3">
-              <label for="cc-expiration" class="form-label">Expiration</label>
-              <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
-            </div>
-  
-            <div class="col-md-3">
-              <label for="cc-cvv" class="form-label">CVV</label>
-              <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
-            </div>
-  
-            <div class="col-md-6">
-              <label for="cc-name" class="form-label">Name on card</label>
-              <input type="text" class="form-control" id="cc-name" placeholder="" required>
-              <small class="text-muted">Full name as displayed on card</small>
-            </div>
-          </div>
-  
-          <hr class="my-4">
-  
-          <button class="w-100 btn btn-primary btn-lg" onclick="location.href = 'donation_confirmation.html'">Confirm</button>
+          <button class="w-100 btn btn-primary btn-lg" onclick="location.href = 'class_registration_confirmation.html'">Confirm</button>
   
           <hr class="my-4">
         </div>
